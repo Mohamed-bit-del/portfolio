@@ -1,0 +1,1716 @@
+body {
+  overflow: hidden;
+  margin: auto;
+  height: 100%;
+  background: #000;
+}
+
+/*=============== Start header ===============*/
+
+/*--------------- Mobile header -------------------*/
+
+.header-mobile {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background: #111;
+  visibility: hidden;
+  transition: all .3s ease-in-out;
+}
+
+.header-mobile .header-togel {
+  font-size: 25px;
+  border-left: .1px solid #444;
+  width: 50px;
+  line-height: 50px;
+  padding-inline-start: 10px;
+}
+
+.header-mobile h2 {
+  position: relative;
+  left: 10px;
+  color: #FFF;
+  text-transform: uppercase;
+}
+
+.header-main {
+  background: #444;
+  color: #909090;
+  width: 13%;
+  height: 100vh;
+  display: block;
+  position: fixed;
+  overflow: auto;
+  transition: all .3s ease-in-out;
+}
+
+nav {
+  position: relative;
+  bottom: 25px;
+}
+
+.logo-profile {
+  display: inline;
+}
+
+header .header-main .logo-profile img{
+  width: 100%;
+  height: 12em;
+  background-size: cover;
+  margin: auto;
+}
+
+.logo-profile p {
+  /* display: inline; */
+  margin: auto;
+  text-align: center;
+  position: relative;
+  left: .5px;
+  bottom: 35px;
+  color: #FFF;
+  padding: 15px 8px;
+  letter-spacing: 2px;
+  font-weight: bolder;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 5px black;
+  background-color: rgba(0, 163, 225, .6);
+}
+
+.header-main .collection {
+  display: inline-block;
+  width: 100%;
+  margin: auto;
+  padding-inline-start: 0px;
+}
+
+.header-main .collection .collection-item {
+  line-height: 40px;
+  height: 39px;
+  border-bottom: 1px solid #999;
+  padding-inline-start: 35px;
+  text-transform: uppercase;
+}
+
+.header-main .collection .collection-item a:hover {
+  color: #FFF
+}
+
+.footer {
+  padding-block-start: 8em;
+  /* padding-inline-start: 10px; */
+}
+
+.footer .socile {
+  /* letter-spacing: 2px; */
+  text-align: center;
+}
+
+.footer .socile a {
+  padding-inline: 3px;
+}
+
+.footer .socile a:hover {
+  color: #FFF;
+}
+
+.footer .copy-rigth {
+  text-align: center;
+  /* width: 90%; */
+}
+
+/*============== End Header =================*/
+
+/*=============== Start page-body  ===============*/
+
+.section-one, .section-two,
+.section-three, .section-four,
+.section-fife, .section-six {
+  width: 100%;
+  text-align: center;
+  height: 100vh;
+  max-height: 100%;
+  overflow: auto;
+}
+
+/* .page-one, .page-two,
+.page-three, .page-four,
+.page-fife, .page-six {
+  margin:auto;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  max-height: 100%;
+  display: inline-block;
+  overflow: auto;
+} */
+
+.body-page {
+  /* position: absolute;
+  left: 13%; */
+  /* min-width: 87%;
+  margin-inline-start: 13%;
+  position: relative; */
+  position: absolute;
+  top: 0;
+  left: 13%;
+  right: 0;
+  width: auto;
+  height: 100%;
+  /* -webkit-perspective: 1200px;
+  perspective: 1200px; */
+  overflow: hidden;
+}
+
+/*=============== Start Page One ================*/
+
+.body-page .page-one .text-logo {
+  display: inline-block;
+  position: relative;
+  top: 38%;
+  left: 10px;
+  color: #d9d1d1;
+}
+
+.text-logo h1 {
+  font-size: 56px;
+  text-transform: uppercase;
+}
+
+.text-logo h1 span {
+  color: #00A3E1;
+}
+
+.text-logo p {
+  font-size: 25px;
+  color: #FFF;
+}
+
+.body-page .page-one {
+  background: url(../image/Home/download.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  max-height: 100%;
+}
+
+/*==================== Start Page Two  ==================*/
+
+/* .page-two {
+  overflow: scroll;
+  display: block;
+} */
+
+.page-two .about-inform .about {
+  display: flex;
+  padding-block-start: 30px;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  border-bottom: 1px dashed #999;
+  font-size: 25px;
+  margin-inline: 11%;
+  color: #00A3E1;
+}
+
+.about h2 {
+  margin-block: 15px;
+}
+
+.page-two .flex-inform {
+  display: flex;
+  width: 87%;
+}
+
+.flex-inform .inform {
+  width: 68%;
+  text-align: left;
+  padding-inline-start: 15.5%;
+  color: #555;
+}
+
+.flex-inform .inform h4 {
+  color: #000;
+  font-size: 25px;
+  margin-block: 40px 0px;
+  text-transform: capitalize;
+}
+
+.inform p {
+  line-height: 24px;
+}
+
+.flex-inform .aside {
+  text-align: left;
+  width: 15em;
+  /* line-height: 27px;
+  height: 30px; */
+  text-transform: capitalize;
+}
+
+.aside h5 {
+  margin-block: 40px 0px;
+  font-size: 23px;
+}
+
+.flex-inform .aside ul {
+  padding-inline-start: 0px;
+  line-height: 2em;
+}
+
+.aside ul li b {
+  color: #000;
+}
+
+button.btn {
+  background: #FFF;
+  color: #00A3E1;
+  font-size: 15px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border: 2px solid #00A3E1;
+  -wekit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+button.btn:hover {
+  cursor: pointer;
+  background-color: #00A3E1;
+  color: #FFF;
+}
+
+.about-inform .devolp {
+  padding-inline-end: 15em;
+    padding-block-start: 10px;
+}
+
+.about-inform .devolp img {
+  width: 50%;
+}
+
+/*----------------- Start befor ul -------------------*/
+.about-inform .aside ul li a {position: relative;}
+
+.about-inform .aside ul li b::before {
+  content: '';
+  position: absolute;
+  width: 28%;
+  height: 1.5px;
+  margin-block-start: 28px;
+  background-color: #00A3E1;
+}
+
+/*-------------- Start Service ----------------*/
+
+/*----------------- Start befor and after Service -------------------*/
+.inform-service {position: relative;}
+
+.inform-service .services-h2:after {
+  content: '';
+  position: absolute;
+  width: 140px;
+  height: 1.5px;
+  margin-block-start: 28px;
+  background-color: #00A3E1;
+  top: 1.2em;
+  bottom: 0;
+  left: calc(50% - 70px);
+}
+
+.inform-service .services-h2 h2::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  background-color: #00A3E1;
+  top: 39px;
+  bottom: 0;
+  left: calc(50% + 70px);
+}
+
+.inform-service .services-h2 h2::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  background-color: #00A3E1;
+  top: 39px;
+  bottom: 0;
+  left: calc(50% - 70px);
+}
+
+/*----------------- Start Style Code Service -------------------*/
+
+.inform-service .service-body {
+  display: flex;
+  justify-content: center;
+  padding-block-start: 4em;
+  margin: 0 calc(10% /2);
+}
+
+.inform-service h2 {
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.page-two .inform-service {
+  margin-block: 4em;
+}
+
+.web-develop h6, .web-des h6,
+.respo-des h6, .photo h6 {
+  font-size: 22px;
+  margin-block: 15px 0px;
+  color: #444;
+  text-transform: capitalize;
+}
+
+.web-develop i.fas.fa-laptop.fa-3x,
+.web-des i.fas.fa-eye.fa-3x,
+.respo-des i.fas.fa-laptop-code.fa-3x,
+.photo i.fas.fa-camera.fa-3x {
+  color: #00A3E1;
+}
+
+.web-develop p, .web-des p,
+.respo-des p, .photo p{
+  width: 90%;
+  text-align: center;
+  color: #999;
+}
+
+/*----------------- Start Clients -----------------*/
+
+/*----------------- Start befor and after Service -------------------*/
+.clients-di{position: relative;}
+
+.clients-di .clients-h2:after {
+  content: '';
+  position: absolute;
+  width: 140px;
+  height: 1.5px;
+  margin-block-start: 28px;
+  background-color: #00A3E1;
+  top: calc(1%);
+  bottom: 0;
+  left: calc(50% - 70px);
+}
+
+.clients-di .clients-h2 h4::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  background-color: #00A3E1;
+  top: 24px;
+  bottom: 0;
+  left: calc(50% - 70px);
+}
+
+.clients-di .clients-h2 h4::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  background-color: #00A3E1;
+  top: 24px;
+  bottom: 0;
+  left: calc(50% + 70px);
+}
+
+/*----------------- Start Style Code Clients -------------------*/
+.clients-di {
+  width: 100%;
+}
+
+.clients-di h4 {
+  text-transform: uppercase;
+  font-size: 26px;
+  color: #444;
+  display: inline;
+}
+
+.trans-hidd { /* Malte animate client and testimonles */
+  overflow: hidden;
+  height: 180px;
+  /* width: 990px; */
+  /* margin-inline-start: 159px; */
+  margin: 0 calc(80% /6);
+}
+
+ul.trans-client {
+    display: flex;
+    height: 130px;
+}
+
+.trans-client li, 
+.testi-contan .groub-testi { /* Malte animate client and testimonles */
+  width: 1500px;
+  height: 140px;
+  position: relative;
+  animation: move 20s infinite
+}
+
+.trans-client li a {
+  position: relative;
+  float: left
+}
+
+.trans-client li a img {
+  margin-inline: 35px;
+  opacity: .5;
+  -webkit-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.trans-client li a img:hover {
+  cursor: pointer;
+  opacity: .9;
+}
+
+@keyframes move {
+  0% {left: 0px;}
+  10% {left: 0px;}
+  25% {left: 5px;}
+  50% {right: 20px;}
+  90% {left: -1000px;}
+  100% {left: 0px;}
+}
+
+/*---------------- Start Testimonals ----------------*/
+
+/*----------------- Start befor and after Testimonals -------------------*/
+.testimona{position: relative;}
+
+.testimona .testimonals-h2:after {
+  content: '';
+  position: absolute;
+  width: 140px;
+  height: 1.5px;
+  margin-block-start: 28px;
+  background-color: #00A3E1;
+  top: 2px;
+  bottom: 0;
+  left: calc(50% - 70px);
+}
+
+.testimona .testimonals-h2 h2::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  background-color: #00A3E1;
+  top: 22px;
+  bottom: 0;
+  left: calc(50% + 69px);
+}
+
+.testimona .testimonals-h2 h2::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  background-color: #00A3E1;
+  top: 22px;
+  bottom: 0;
+  left: calc(50% - 70px);
+}
+
+/*----------------- Start Style Code Testimonals -------------------*/
+.testimona h2 {
+  text-transform: capitalize;
+  color: #444;
+  margin-block-start: 3em;
+}
+
+.testi-contan {
+  overflow: hidden;
+    height: 275px;
+    margin: 0 calc(25% / 2);
+    /* width: 990px; */
+    /* margin-inline-start: 159px; */
+    /* margin-block: 40px; */
+}
+
+.testi-contan .groub-testi {
+  display: flex;
+  height: 230px;
+}
+ 
+.testimona .testi-contan .testi-one,
+.testimona .testi-contan .testi-two,
+.testimona .testi-contan .testi-three,
+.testimona .testi-contan .testi-four {
+  padding-inline: 10px
+}
+
+.test-top {
+  background-color: #DDD;
+  display: flex;
+  width: 26.5em;
+  padding: 5px 26px;
+  margin-block-end: 20px;
+  border-radius: 50px 3px;
+  box-shadow: 3px 3px 10px #c2c2bf;
+}
+
+.test-top p {
+  color: #444;
+  text-align: left;
+  padding-inline-start: 20px;
+}
+
+.test-top i.fas.fa-quote-left.fa-3x {
+  padding-block-start: 30px;
+  color: #00A3E1;
+}
+
+.test-bottom .main-bott {display: flex;}
+
+.test-bottom .main-bott .main-bottom {
+    text-align: left;
+    padding-inline-start: 10px;
+}
+
+.main-top img {
+  border-radius: 50px 0px;
+}
+
+.test-bottom .main-bott .main-bottom b {
+    display: block;
+    text-transform: capitalize;
+}
+
+.main-bottom span {
+  color: #555;
+  text-transform: capitalize;
+}
+
+/*============ Start Page Three ==============*/
+
+/* .page-three {
+  overflow: scroll;
+  display: block;
+} */
+
+.page-three .resume {
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+  margin-inline: 11%;
+  padding-block-start: 30px;
+  text-transform: capitalize;
+  justify-content: space-between;
+  color: #00A3E1;
+  border-bottom: 1px dashed #999;
+}
+
+.resume h2 {
+  margin-block: 15px;
+}
+
+.page-three .flex-resume {
+  display: flex;
+  padding-block-start: 2em;
+  justify-content: space-between;
+}
+
+/* Malte code in the culome experience and education  */
+.respons-exper {
+  width: 55%;
+  /* text-align: left; */
+}
+
+/* .respons-educa {
+  text-align: left;
+} */
+
+.experience,
+.education {
+  width: 100%;
+  position: relative;
+}
+
+ .experience h2{
+   color: #333;
+   /* padding-inline-start: 6em; */
+  text-transform: uppercase;
+}
+
+.education h2 {
+  color: #333;
+  /* padding-inline-end: 4em; */
+  text-transform: uppercase;
+}
+
+/*-------------- Start line below h2 experience and edication ------------*/
+
+.exper-befor-h2:after {
+  content: '';
+  position: absolute;
+  width: 170px;
+  height: .2%;
+  margin-block-start: 28px;
+  background-color: #00A3E1;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 85px);
+}
+
+.exper-befor-h2 h2::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  background-color: #00A3E1;
+  top: 19px;
+  bottom: 0;
+  left: calc(50% - 85px);
+}
+
+.exper-befor-h2 h2::before {
+
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  background-color: #00A3E1;
+  top: 19px;
+  bottom: 0;
+  left: calc(50% + 83px);
+}
+
+.educa-befor-h2:after {
+  content: '';
+  position: absolute;
+  width: 155px;
+  height: .2%;
+  margin-block-start: 28px;
+  background-color: #00A3E1;
+  top: 0;
+  bottom: 0;
+  left: calc(50% - 77px);
+}
+
+.educa-befor-h2 h2::after {
+
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  background-color: #00A3E1;
+  top: 19px;
+  bottom: 0;
+  left: calc(50% - 77px);;
+}
+
+.educa-befor-h2 h2::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  background-color: #00A3E1;
+  top: 20px;
+  bottom: 0; 
+  left: calc(50% + 76px);
+}
+ 
+.flex-resume .experience .respons-exper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex: 0 0 100%;
+  text-align: left;
+}
+
+.flex-resume .education .respons-educa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex: 0 0 100%;
+  text-align: left;
+}
+
+/*----------------- Start line left experinece and education my resume -------------------*/
+
+.respons-exper .exper-top::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 27%;
+  background-color: #00A3E1;
+  top: 59px;
+  bottom: 0;
+  left: 140px;
+
+}
+
+.respons-exper .exper-heide::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 27%;
+  background-color: #00A3E1;
+  top: 265px;
+  bottom: 0;
+  left: 140px;
+}
+
+.respons-exper .exper-bottom::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 27%;
+  background-color: #00A3E1;
+  top: 470px;
+  bottom: 0;
+  left: 140px;
+
+}
+
+.respons-educa .educa-top::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 27%;
+  background-color: #00A3E1;
+  top: 74px;
+  bottom: 0;
+  left: 150px;
+}
+
+.respons-educa .educa-heide::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 27%;
+  background-color: #00A3E1;
+  top: 275px;
+  bottom: 0;
+  left: 150px;
+}
+
+.respons-educa .educa-bottom::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 27%;
+  background-color: #00A3E1;
+  top: 470px;
+  bottom: 0;
+  left: 150px;
+}
+
+/*--------------- Start reduse top and bottom experinece and education my resume -----------------*/
+.reduse-experiense,
+.reduse-education {
+  position: relative;
+}
+
+.respons-exper .exper-top .reduse-experiense:after {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border: 2px solid #00A3E1;
+  border-radius: 100%;
+  color: #00A3E1;
+  background-color: #FFF;
+  top: 171px;
+  right: 332.5px;
+}
+
+.respons-exper .exper-top .reduse-experiense:before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border: 2px solid #00A3E1;
+  border-radius: 100%;
+  color: #00A3E1;
+  background-color: #FFF;
+  bottom: 2px;
+  right: 332.5px;
+}
+
+.respons-exper .exper-heide .reduse-experiense:after {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border: 2px solid #00A3E1;
+  border-radius: 100%;
+  color: #00A3E1;
+  background-color: #FFF;
+  top: 177px;
+  right: 332.7px;
+}
+
+.respons-exper .exper-heide .reduse-experiense:before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border: 2px solid #00A3E1;
+  border-radius: 100%;
+  color: #00A3E1;
+  background-color: #FFF;
+  bottom: -3px;
+  right: 332.5px;
+}
+
+.respons-exper .exper-bottom .reduse-experiense:after {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border: 2px solid #00A3E1;
+  border-radius: 100%;
+  color: #00A3E1;
+  background-color: #FFF;
+  top: 0;
+  right: 332.5px;
+}
+
+.respons-exper .exper-bottom .reduse-experiense:before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border: 2px solid #00A3E1;
+  border-radius: 100%;
+  color: #00A3E1;
+  background-color: #FFF;
+  top: 182px;
+  right: 332.5px;
+}
+
+.respons-educa .educa-top .reduse-education:after {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border: 2px solid #00A3E1;
+  border-radius: 100%;
+  color: #00A3E1;
+  background-color: #FFF;
+  top: 5px;
+  right: 356px;
+}
+
+.respons-educa .educa-top .reduse-education:before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border: 2px solid #00A3E1;
+  border-radius: 100%;
+  color: #00A3E1;
+  background-color: #FFF;
+  top: 185px;
+  right: 356px;
+}
+
+.respons-educa .educa-heide .reduse-education:after {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border: 2px solid #00A3E1;
+  border-radius: 100%;
+  color: #00A3E1;
+  background-color: #FFF;
+  bottom: -13px;
+  right: 356px;
+}
+
+.respons-educa .educa-heide .reduse-education:before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border: 2px solid #00A3E1;
+  border-radius: 100%;
+  color: #00A3E1;
+  background-color: #FFF;
+  top: 188px;
+  right: 356px;
+}
+
+.respons-educa .educa-bottom .reduse-education:after {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border: 2px solid #00A3E1;
+  border-radius: 100%;
+  color: #00A3E1;
+  background-color: #FFF;
+  top: 0;
+  right: 356px;
+}
+
+.respons-educa .educa-bottom .reduse-education:before {
+  content: '';
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border: 2px solid #00A3E1;
+  border-radius: 100%;
+  color: #00A3E1;
+  background-color: #FFF;
+  top: 180px;
+  right: 356px;
+}
+
+/* ------------- Start Style coding Experience and Education -------------*/
+.respons-exper .exper-top,
+.respons-exper .exper-heide,
+.respons-exper .exper-bottom,
+.respons-educa .educa-top,
+.respons-educa .educa-heide,
+.respons-educa .educa-bottom {
+  width: 50%;
+  margin-block-start: 15px;
+}
+
+.flex-resume .experience .respons-exper .exper-top h3,
+.flex-resume .experience .respons-exper .exper-heide h3,
+.flex-resume .experience .respons-exper .exper-bottom h3,
+.flex-resume .education .respons-educa .educa-top h3,
+.flex-resume .education .respons-educa .educa-heide h3,
+.flex-resume .education .respons-educa .educa-bottom h3 {
+  margin-block-end: 5px;
+  text-transform: uppercase;
+}
+
+.flex-resume .experience .respons-exper .exper-top b,
+.flex-resume .experience .respons-exper .exper-heide b,
+.flex-resume .experience .respons-exper .exper-bottom b,
+.flex-resume .education .respons-educa .educa-top b,
+.flex-resume .education .respons-educa .educa-heide b,
+.flex-resume .education .respons-educa .educa-bottom b {
+  color: #00A3E1;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.flex-resume .experience .respons-exper .exper-top p,
+.flex-resume .experience .respons-exper .exper-heide p,
+.flex-resume .experience .respons-exper .exper-bottom p,
+.flex-resume .education .respons-educa .educa-top p,
+.flex-resume .education .respons-educa .educa-heide p,
+.flex-resume .education .respons-educa .educa-bottom p {
+    line-height: 23px;
+    color: #444;
+    display: flex;
+    flex-direction: column;
+    width: calc(80px + 52%);
+} 
+
+/*--------------------- Start Progres -------------------*/
+.design-devel > section {
+  width: 40%;
+}
+
+.design-devel {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  position: relative;
+  width: calc(50% + 50%);
+  flex: 0 0 30%;
+  margin: auto;
+}
+
+.design-devel h2,
+.code-devel h2 {
+  text-transform: uppercase;
+  /* padding-inline-end: 8em; */
+  margin-block-start: 4em;
+  color: #333;
+}
+
+form.skils {
+  /* width: 35em; */
+  margin-block: 3em;
+}
+
+form.skils .desi-devel {
+  text-align: left;
+  padding-block-start: 15px;
+      /* width: calc(50% + 90%);*/
+}
+
+.desi-devel .lab {
+  text-transform: uppercase;
+  padding-inline-start: 9px;
+  color: #888;
+}
+#coral, #photoshop, #illustrator,
+#html5, #css3, #javascript  {
+  width: 90%;
+  display: block;
+  appearance: none;
+  border-radius: 12px 12px;
+  background: #00A3E1;
+  color: #00A3E1;
+}
+
+/* --------------- Start Befor And After design-devel -------------------*/
+.design-h2,
+.skills-h2,
+.design-h2 h2,
+.skills-h2 h2{
+  position: relative;
+}
+
+.design-devel .design-h2:after {
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 4%;
+  background-color: #00A3E1;
+  top: calc(50% + 12px);
+  bottom: 0;
+  left: calc(50% - 100px);
+}
+
+.design-devel .design-h2 h2::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 7px;
+  background-color: #00A3E1;
+  top: calc(50% + 5px);
+  bottom: 0;
+  left: calc(50% - 100px);
+}
+
+.design-devel .design-h2 h2::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  background-color: #00A3E1;
+  top: calc(50% + 5px);
+  bottom: 0;
+  left: calc(50% + 100px);
+}
+
+.design-devel .skills-h2:after {
+  content: '';
+  position: absolute;
+  width: 201px;
+  height: 1px;
+  background-color: #00A3E1;
+  top: calc(50% + 12px);
+  bottom: 0;
+  left: calc(50% - 100px);
+}
+
+.design-devel .skills-h2 h2::before {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  background-color: #00A3E1;
+  top: calc(50% + 5px);
+  bottom: 0;
+  left: calc(50% + 100px);
+}
+
+.design-devel .skills-h2 h2::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 8px;
+  background-color: #00A3E1;
+  top: calc(50% + 5px);
+  bottom: 0;
+  left: calc(50% - 100px);
+}
+
+/* Malte code in the culome experience  */
+
+
+/* Start Page Four  */
+
+/* .page-four {
+  display: block;
+  overflow: scroll;
+} */
+
+.page-four .portfolio {
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+  margin-inline: 11%;
+  padding-block-start: 30px;
+  text-transform: capitalize;
+  justify-content: space-between;
+  color: #00A3E1;
+  border-bottom: 1px dashed #999;
+}
+
+.portfolio h2 {
+  margin-block: 15px;
+}
+
+.page-four .perant-collection {
+  display: flex;
+  justify-content: center;
+}
+
+.page-four .perant-collection .portfolio-collection {
+  display: flex;
+  border: 1px dashed #c0b3b3;
+  padding-block: 10px;
+  border-radius: 5em;
+  margin-block-start: 50px;
+  margin-block-end: 35px;
+  padding-inline-start: 0px;
+}
+
+.page-four .perant-collection .portfolio-collection .portfolio-item {
+  color: #555;
+  text-transform: uppercase;
+  padding-inline: 1em;
+  cursor: pointer;
+}
+
+.page-four .perant-collection .portfolio-collection .portfolio-item:hover {
+  color: #00A3E1
+}
+
+/* js */
+
+.pic {display: none;}
+
+.show {display: block; animation: move .20s ;}
+
+/* js */
+
+/* .collection-image {
+  display: flex;
+  justify-content: center;
+  padding-inline-start: 2em;
+  height: 44px;
+  line-height: 40px;
+} */
+
+.collection-one,
+.collection-two, 
+.collection-three {
+  height: 100%;
+  line-height: 50px;
+  margin-inline: 10px;
+}
+
+.collection-image-portfolio {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.proto-img {
+  height: 0%;
+  flex: 0 0 25%;
+  margin: 0 calc(10% /6);
+}
+
+.image-one img {
+  width: 20em;
+  /* height: 18em; */
+  border-radius: 10px;
+}
+
+.image-two img,
+.image-three img,
+.image-four img  {
+  width: 20em;
+  height: 15em;
+  border-radius: 10px;
+}
+
+.image-fife img {
+  width: 20em;
+  height: 26em;
+  border-radius: 10px;
+}
+
+.image-six img {
+  width: 20em;
+  height: 16em;
+  border-radius: 10px;
+}
+
+.image-seven img,
+.image-eight img,
+.image-nine img,
+.image-ten img,
+.image-eleven img {
+  width: 20em;
+  border-radius: 10px;
+}
+
+/*--------------- Start hover image -----------*/
+
+ul.hover-item {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  text-transform: uppercase;
+  position: absolute;
+  left: 0px;
+  width: 300px;
+  height: 196px;
+  border-radius: 10px;
+  margin-block-end: 0px;
+  margin-block-start: 0px;
+  padding-block-start: 88px;
+  padding-inline-start: 20px;
+  color: #FFF;
+  background-color: rgba(0, 163, 225, .4);
+  -wekit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.image-two ul.hover-item,
+.image-three ul.hover-item,
+.image-four ul.hover-item {
+  height: 175px;
+  padding-block-start: 4em;
+}
+
+.image-fife ul.hover-item {
+  height: 271px;
+  padding-block-start: 9em;
+}
+
+.image-six ul.hover-item {
+  height: 168px;
+}
+
+.image-seven ul.hover-item {
+  height: 266px;
+  padding-block-start: 10em;
+}
+
+.image-eight ul.hover-item {
+  height: 144px;
+  padding-block-start: 3em;
+}
+
+.image-nine ul.hover-item {
+  height: 267px;
+  padding-block-start: 10em;
+}
+
+.image-ten ul.hover-item {
+  height: 221px;
+  padding-block-start: 7em;
+}
+
+.image-eleven ul.hover-item {
+  height: 145px;
+  padding-block-start: 20px;
+
+}
+
+.image-hover {
+  display: none;
+  position: relative;
+}
+
+.image-one:hover .image-hover,
+.image-two:hover .image-hover,
+.image-three:hover .image-hover,
+.image-four:hover .image-hover,
+.image-fife:hover .image-hover,
+.image-six:hover .image-hover,
+.image-seven:hover .image-hover,
+.image-eight:hover .image-hover,
+.image-nine:hover .image-hover,
+.image-ten:hover .image-hover,
+.image-eleven:hover .image-hover {
+  display: block;
+  cursor: pointer;
+}
+
+
+/*s Start Page Fife  */
+
+/* .page-fife {
+  overflow: scroll;
+  display: block;
+} */
+
+.page-fife .blog {
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+  margin-inline: 11%;
+  padding-block-start: 30px;
+  text-transform: capitalize;
+  justify-content: space-between;
+  color: #00A3E1;
+  border-bottom: 1px dashed #999;
+}
+
+.blog h2 {
+  margin-block: 15px;
+}
+
+.colection-card {
+  /* display: flex;
+  justify-content: space-between;
+  margin-inline: 135px; */
+  margin-block: 2em;
+}
+
+/*---------- Start Card --------------*/
+
+.section-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.colection-card .card {
+    height: 30em;
+    width: 100%;
+    flex: 0 0 30%;
+    max-width: 70%;
+    overflow: hidden;
+    margin: 0 calc(10% /6);
+}
+
+.page-fife .colection-card .card .image-card {
+  display: flex;
+}
+
+.page-fife .colection-card .card .image-card img {
+  width: 100%;
+  height: 100%;
+}
+
+.page-fife .colection-card .card .text-card {
+  border: 1px solid #DDD;
+  display: flex;
+  height: 115px;
+}
+
+.form-text-card {
+  width: 80%;
+  position: relative;
+  bottom: 41px;
+  left: 30px;
+  line-height: 31px;
+  background: #FFF;
+  padding-block-start: 30px;
+}
+
+.form-text-card h3 {
+  color: #444;
+  margin-block: 0px;
+  text-transform: capitalize;
+}
+
+.form-text-card p {
+  color: #00A3E1;
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+}
+
+.form-text-card em {
+  color: #888;
+  text-transform: capitalize;
+}
+
+/* Start Page Six  */
+
+/* .page-six {
+  overflow: scroll;
+  display: block;
+} */
+
+.page-six .contact {
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+  margin-inline: 11%;
+  padding-block-start: 30px;
+  text-transform: capitalize;
+  justify-content: space-between;
+  color: #00A3E1;
+  border-bottom: 1px dashed #999;
+}
+
+.contact h2 {
+  margin-block: 15px;
+}
+
+.contact-form h2 {
+  margin-block: 2em;
+  text-transform: uppercase;
+}
+
+/*-------------- Start Form Contact --------------*/
+#information {
+  line-height: 6em;
+}
+
+#information input[type="text"],
+#information input[type="email"] {
+    color: #888;
+    border: 2px solid #888;
+    padding: 10px 170px 10px 10px;
+    margin-inline: 10px;
+    text-transform: capitalize;
+}
+
+#information .name-email input[type="text"]:active,
+#information .name-email input[type="email"]:active {
+  border: 2px solid #888;
+}
+
+#information textarea {
+    width: 53%;
+    height: 12em;
+    border: 2px solid #888;
+}
+
+#information input[type="submit"] {
+    display: block;
+    margin: auto;
+    padding: 10px 30px;
+    border: 2px solid #00A3E1;
+    background: #FFF;
+    color: #00A3E1;
+    font-weight: bold;
+    text-transform: uppercase;
+    -wekit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
+}
+
+#information input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: #00A3E1;
+  color: #FFF;
+}
+
+/*------------- Start contact socile ------------*/
+.contact-scile ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.contact-scile ul li i.fa-2x {
+  color: #00A3E1;
+}
+
+.contact-scile {
+  margin-block-start: 5em;
+  margin-inline-end: 4em;
+}
+
+.contact-scile ul li p {
+  color: #444;
+}
+
+.map-google iframe {
+  width: 100%;
+  height: 100%;
+}
+
+/* End page-body  */
+
+/*============= Malite coding ==============*/
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #909090
+}
+ /* Start animation project */
+/* 
+ #btn-one {
+  z-index: 6;
+ }
+
+ #btn-two {
+  z-index: 5;
+}
+
+#btn-three {
+  z-index: 4;
+
+}
+
+#btn-four {
+  z-index: 3;
+
+}
+
+#btn-fife {
+  z-index: 2;
+
+}
+
+#btn-six {
+  z-index: 1;
+
+}  */
+.sectionClass{
+  background: #FFF;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 0;
+  text-align: center;
+  transform: translate3d(0, 0, 0);
+  transform-style: preserve-3d;
+}
+.page-active {
+  visibility: visible;
+  opacity: 1;
+  z-index: 1;
+}
+ /* .animate { */
+   /* width: 100%; */
+  /* position: absolute; */
+
+  
+  /* animation: anmia 2s ease-in-out 1;
+  backface-visibility: visible !important;
+  transform-style: preserve-3d;
+  transform-origin: bottom; */
+  /* transform-origin: 50% 100%;
+  animation: rotatePushBottom .8s both ease; */
+/* } */
+
+/* Push  */
+
+.page-rotatePushTop {
+  -webkit-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-animation: rotatePushTop .8s both ease;
+  animation: rotatePushTop .8s both ease;
+}
+
+.page-rotatePushBottom {
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-animation: rotatePushBottom .5s both ease;
+  animation: rotatePushBottom .5s both ease;
+  animation-delay: .580s;
+}
+
+/* .delay180 {
+  animation-delay: .180s;
+} */
+@keyframes rotatePushTop {
+  from { }
+  to { opacity: 0; transform: rotateX(-90deg); }
+}
+
+
+@keyframes rotatePushBottom {
+  from { opacity: 0; transform: rotateX(90deg); }
+  to {}
+}
+
+/* Pull  */
+
+.page-rotatepullTop {
+  -webkit-transform-origin: 50% 0%;
+  transform-origin: 50% 0%;
+  -webkit-animation: rotatePullTop .8s both ease;
+  animation: rotatePullTop .8s both ease;
+}
+
+.page-rotatepullBottom {
+  -webkit-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-animation: rotatePullBottom .5s both ease;
+  animation: rotatePullBottom .5s both ease;
+  animation-delay: .580s;
+}
+
+@keyframes rotatePullTop {
+  from {opacity: 0; transform: rotateX(-90deg); }
+}
+
+
+@keyframes rotatePullBottom {
+  from { opacity: 0; transform: rotateX(90deg); }
+  to {}
+}
+
+/* 
+#btn-one ~ .body-page  #home {
+  transform: rotateX(-90deg);
+  z-index: 1;
+}
+
+#btn-two ~ .body-page  #about-me {
+  transform: rotateX(-90deg);
+  z-index: 2;
+}
+
+#btn-three ~ .body-page  #resume {
+  transform: rotateX(-90deg);
+  z-index: 3;
+}
+
+#btn-four ~ .body-page  #portfolio {
+  transform: rotateX(-90deg);
+  z-index: 4;
+}
+
+#btn-fife ~ .body-page  #blog {
+  transform: rotateX(-90deg);
+  z-index: 5;
+}
+
+#btn-six ~ .body-page  #contact {
+  transform: rotateX(-90deg);
+  z-index: 6;
+} */
+
+
+@keyframes anmia { 
+  0% {  
+      /* transform: rotate3d(1, 0, 0, 90deg);  */
+      transform: rotateX( -90deg );
+      opacity: 0; 
+  } 
+  100% { 
+      /* transform: rotate3d(1, 0, 0, 0deg); */
+      /* transform: rotateY(0deg);  */
+      transform: rotateX( 0deg );
+      opacity: 1; 
+  } 
+} 

@@ -1,0 +1,308 @@
+/* Start Media Extra Small */
+@media (max-width: 330px) 
+{
+  header div#head-phone-visible {
+    width: 60%;
+    }
+}
+
+@media (max-width: 495px) 
+{
+
+  div#head-phone-visible {
+  width: 45%;
+  }
+
+  div.colection-card div.card {
+    flex: 0 0 100%;
+  }
+
+  div.flex-inform div.aside ul {
+    width: 70%;
+  }
+
+  .image-one img,
+  .image-two img,
+  .image-three img,
+  .image-four img
+  .image-fife img,
+  .image-six img,
+  .image-seven img,
+  .image-eight img,
+  .image-nine img,
+  .image-ten img,
+  .image-eleven img {width: 15em;}
+
+
+}
+
+/* Start Media Small */
+@media (max-width: 768px) 
+{
+  .page-two div.about, .page-three div.resume, .section-four div.portfolio, .section-fife div.blog, .section-six div.contact {
+    margin-block-start: 25px;
+}
+
+  .header-mobile {
+    visibility: visible;
+  }
+
+  #head-phone-visible {
+    width: 25%;
+    left: -200px;
+    position: absolute;
+    z-index: 11;
+    transition: all .3s ease-in-out;
+  }
+
+  .body-page.mobile {
+    left: 0;
+    z-index: 9;
+  }  
+
+  /* About Me */
+  .page-two div.flex-inform {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .flex-inform div.aside {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .flex-inform div.aside ul {
+    width: 50%;
+  }
+
+  .aside ul li {
+    display: inline-block;
+    position: relative;
+    margin: 0 5px;
+  }
+
+  .service-body .inform-web, .service-body .web-des, 
+  .service-body .respo-des, .service-body .photo {
+    width: 100%;
+  }
+  div.web-develop p, div.web-des p, 
+  div.respo-des p, div.photo p {
+    padding-inline: 0;
+  }
+
+  /* Resume */
+  .page-three div.flex-resume {
+    flex-direction: column;
+}
+
+div.respons-exper div.exper-top::after,
+div.respons-exper div.exper-heide,
+div.respons-exper div.exper-bottom::after,
+.respons-educa div.educa-top::after,
+.respons-educa div.educa-heide::after,
+.respons-educa div.educa-bottom::after,
+.respons-exper div.exper-top div.reduse-experiense:before,
+.respons-exper div.exper-top div.reduse-experiense:after,
+.respons-exper div.exper-heide div.reduse-experiense:before,
+.respons-exper div.exper-heide div.reduse-experiense:after,
+.respons-exper div.exper-bottom div.reduse-experiense:before,
+.respons-exper div.exper-bottom div.reduse-experiense:after,
+.respons-educa div.educa-top div.reduse-education:after,
+.respons-educa div.educa-top div.reduse-education:before,
+.respons-educa div.educa-heide div.reduse-education:after,
+.respons-educa div.educa-heide div.reduse-education:before,
+.respons-educa div.educa-bottom div.reduse-education:after,
+.respons-educa div.educa-bottom div.reduse-education:before {
+  display: none;
+}
+
+div.design-devel {
+  flex-direction: column;
+}
+
+div.design-devel > section {
+  width: 75%;
+}
+
+/* content */
+.name-email {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+textarea#text-content {
+  width: 333px;
+}
+
+form#information input[type="text"], 
+form#information input[type="email"],
+textarea#text-content {
+  margin-block-start: 15px;
+}
+  
+}
+
+/* Start Media Large */
+@media (max-width: 1025px) 
+{
+
+  /* Home  */
+  div.header-main {
+    width: 18%;
+  }
+
+  div.body-page {
+      left: 18%;
+  }
+}
+
+/* Start Media Extra Large */
+@media (max-width: 1200px) 
+{
+
+  .page-two div.about,
+  .page-three div.resume,
+  .section-four div.portfolio,
+  .section-fife div.blog,
+  .section-six div.contact {
+    margin-inline: 5%;
+  }
+  .header-main {
+    width: 17%;
+  }
+  
+  .body-page {
+    left: 17%;
+  }
+  
+    /* About Me */
+    .service-body {
+      flex-wrap: wrap;
+    }
+  
+    .inform-web, .web-des,
+    .respo-des, .photo {
+      width: 50%;
+      height: 200px;
+    }
+  
+    .web-develop p, .web-des p,
+    .respo-des p, .photo p {
+        width: auto;
+        padding-inline: 20%;
+    }
+    
+    /* Protfolio  */
+    .page-three div.resume {
+      margin-inline: 5%;
+  }
+    
+    .respons-exper div.exper-top,
+    .respons-exper div.exper-heide,
+    .respons-exper div.exper-bottom,
+    .respons-educa div.educa-top,
+    .respons-educa div.educa-heide,
+    .respons-educa div.educa-bottom {
+      width: 60%;
+    }
+
+    /* Before and after */
+    .respons-exper  div.exper-top::after {
+      top: 70px;
+      left: 80px;
+    }
+
+    .respons-exper  div.exper-heide::after {
+      top: 290px;
+      left: 80px;
+    }
+
+    .respons-exper  div.exper-bottom::after {
+      top: 515px;
+      left: 80px;
+      height: 30%;
+    }
+
+    .respons-educa div.educa-top::after {
+      left: 80px;
+    }
+
+    .respons-educa div.educa-heide::after {
+      left: 80px;
+      top: 300px;
+    }
+
+    .respons-educa div.educa-bottom::after {
+      left: 80px;
+      top: 515px;
+    }
+
+    .respons-exper .exper-top div.reduse-experiense:before {
+      right: 299.5px;
+      top: 0;
+    }
+
+    .respons-exper .exper-top div.reduse-experiense:after {
+      top: 193px;
+      right: 299.5px;
+    }
+
+    .respons-exper .exper-heide div.reduse-experiense:before {
+      right: 299.5px;
+      top: -2px;
+    }
+
+    .respons-exper .exper-heide div.reduse-experiense:after {
+      top: 191px;
+      right: 299.5px;
+    }
+
+    .respons-exper .exper-bottom div.reduse-experiense:before {
+      right: 299.5px;
+      top: 0;
+    }
+
+    .respons-exper .exper-bottom div.reduse-experiense:after {
+      top: 214px;
+      right: 299.5px;
+    }
+
+    .respons-educa .educa-top div.reduse-education:after {
+      right: 326.1px;
+    }
+
+    .respons-educa .educa-top div.reduse-education:before {
+      top: 197px;
+      right: 326.1px;
+    }
+
+    .respons-educa .educa-heide div.reduse-education:after {
+      top: 6px;
+      right: 326.1px;
+    }
+
+    .respons-educa .educa-heide div.reduse-education:before {
+      top: 201px;
+      right: 326.1px;
+    }
+
+    .respons-educa .educa-bottom div.reduse-education:after {
+      right: 326.1px;
+    }
+
+    .respons-educa .educa-bottom div.reduse-education:before {
+      top: 193px;
+      right: 326.1px;
+    }
+
+    /* Blog Card */
+    .colection-card div.card {
+      flex: 0 0 35%;
+      /* height: 30em; */
+  }
+}
